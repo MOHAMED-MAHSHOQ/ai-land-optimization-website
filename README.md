@@ -61,7 +61,7 @@ Created as part of my self-learning journey, this project demonstrates my growin
 
 Mohamed Mahshoq MS
 📧 Email: msmahshoq2005@gmail.com  
-🔗 GitHub: https://github.com/MOHAMED-MAHSHOQ](https://github.com/MOHAMED-MAHSHOQ)
+🔗 GitHub:https://github.com/MOHAMED-MAHSHOQ
 
 
 > 🚀 *Built entirely through self-learning, creativity, and passion for real-world web development.
