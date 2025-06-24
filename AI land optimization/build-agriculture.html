@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultural Services</title>
+    <link rel="stylesheet" href="css/agri.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Agricultural Services</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="description">
+        <p>Select your location to view the best agriculture-related services available.</p>
+    </section>
+
+    <section class="location-section">
+        <label for="location">Select Location:</label>
+        <select id="location" onchange="showMap()">
+            <option value="">-- Select --</option>
+            <option value="nagercoil">Nagercoil</option>
+            <option value="kanniyakumari">Kanniyakumari</option>
+            <option value="thuckalay">Thuckalay</option>
+            <option value="marthandam">Marthandam</option>
+        </select>
+
+        <div id="map-container"></div>
+
+        <button id="confirm-btn" onclick="confirmLocation()">Confirm Location</button>
+    </section>
+
+    <div id="overlay">
+        <div class="overlay-content">
+            <p>Confirm the location?</p>
+            <button onclick="proceed()">Proceed</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Contact us: +123456789 | Email: example@agri.com</p>
+    </footer>
+
+    <script src="js/agri.js"></script>
+</body>
+</html>
